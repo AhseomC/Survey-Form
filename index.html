@@ -10,9 +10,10 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
       <fieldset>
-    <lable id="name-label">Name<input id ="name" type="text" required/></lable>
-    <label id="email-label">Email<input id="email" type="email" required/></label>
-    <label id="number-label">Age (optional)<input id="number" type="number" min ="13" max="120"/></label>
+    <label id="name-label">Name<input id ="name" type="text" placeholder="type your name" required/></lable>
+    <label id="email-label">Email<input id="email" type="email" placeholder="type your email" required/></label>
+    <label id="number-label">Age (optional)<input id="number" type="number" min ="13" max="120" placeholder="your age"/></label>
+    
     <label> Which option best describes your current role?
     <select id="dropdown">
       <option value=""> Select Current Role</option>
@@ -22,21 +23,25 @@
       <option value="4"> Prefer not to say</option>
       <option value="5"> Other</option>  
     </label>
+    </select>
       </fieldset>
 
       <fieldset>
       <label>Would you recommend freeCodeCamp to a friend?</label>
-        <input type="radio" name="recommend"/>Definitly<label>
-        <label><input type="radio" name="recommend"/>Maybe</label>
-        <label><input type="radio" name="recommend"/>Not sure</label>
-        </fieldset>
+        <input type="radio" name="recommend" value="6"/>Definitly<label>
+        <label><input type="radio" name="recommend" value="7"/>Maybe</label>
+        <label><input type="radio" name="recommend" value="8"/>Not sure</label>
+      </fieldset>
       <fieldset>
         <label>What would you like to see improved? (Check all that apply)</label>
-        <label><input type="checkbox"/>Javascript</label>
-        <label><input type="checkbox"/>Python</label>
-
+        <label><input type="checkbox" value="9"/>Javascript</label>
+        <label><input type="checkbox" value="8"/>Python</label>
+      </fieldset>
       <fieldset> 
+        <label>any suggestions?
         <textarea> </textarea>
       </fieldset>
-      <input type="submit" value="Submit" />
+      <input type="submit" id="submit" />
   </form>
+  </body>
+  </html>
