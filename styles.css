@@ -1,0 +1,43 @@
+body {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+}
+
+h1 {
+  margin: 1em;
+  text-align: center;
+  font-size: 30
+}
+
+p {
+  height: 5vh;
+  text-align: center;
+  font-size: 18
+}
+
+form {
+  width: 80vw;
+  max-width: 500pw;
+  min-width: 300px;
+  margin:0 auto;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+}
+label{
+  display: block
+  margin: 0.5rem 0;
+}
+
+input, textarea, select {
+  margin: 5px 0 15 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="radio"]{
+  
+}
